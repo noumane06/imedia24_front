@@ -86,8 +86,8 @@ $npm run cypress:open
 
 # Preview of the app
 
-![Untitled](Imedia24%20coding%20challenge%20FRONT%201f9f2e662c6f477688653ad3e512b255/Untitled.png)
+![Untitled](https://raw.githubusercontent.com/noumane06/imedia24_front/master/Preview1.png)
 
-![Untitled](Imedia24%20coding%20challenge%20FRONT%201f9f2e662c6f477688653ad3e512b255/Untitled%201.png)
+![Untitled](https://raw.githubusercontent.com/noumane06/imedia24_front/master/Preview2.png)
 
-![Untitled](Imedia24%20coding%20challenge%20FRONT%201f9f2e662c6f477688653ad3e512b255/Untitled%202.png)
+![Untitled](https://raw.githubusercontent.com/noumane06/imedia24_front/master/Preview3.png)
