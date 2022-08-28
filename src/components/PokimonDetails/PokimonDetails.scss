@@ -1,0 +1,113 @@
+.mantine-Modal-title
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.pokimon-details-container
+{
+    .accordion-title
+    {
+        margin-left: 20px;
+        font-family: 'Poppins';
+        font-size: 15px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .pokimon-details-header
+    {
+        .pokimon-details-profile
+        {
+            display: flex;
+            align-items: center;
+            span 
+            {
+                margin-left: 20px;
+                font-family: 'Poppins';
+                font-size: 15px;
+                font-weight: 400;
+            }
+        }
+        .dt
+        {
+            display: flex;
+            flex-direction: column  ;
+        }
+        .pokimon-details-physique
+        {
+            // margin-top: 10px;
+            color: #2a2a2aaa;
+            .pokimon-details-item
+            {
+
+            }
+        }
+        
+    }
+    .key
+    {
+        font-family: 'Poppins';
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .value
+    {
+        font-family: 'Poppins';
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .pokimon-details-body
+    {
+        margin-top: 20px;
+        
+        .pokimon-section-item
+        {
+            display: flex;
+            flex-direction: column;
+            margin-left: 40px;
+
+            .pokimon-section-title
+            {
+                font-family: 'Poppins';
+                font-size: 13px;
+                font-weight: 600;
+                color: #000782;
+                margin-bottom: 10px;
+            }
+            .pokimon-section-value
+            {
+                font-family: 'Poppins';
+                font-size: 13px;
+                font-weight: 400;
+                color: #2a2a2aaa;
+                margin-bottom: 10px;
+
+            }
+        }
+        .pokimon-section-items
+        {
+            display: flex;
+            flex-direction: column;
+        }
+        .key-item
+        {
+            font-family: 'Poppins';
+            font-size: 12px;
+            font-weight: 600;
+            margin-right: 10px;
+            color: #2a2a2a;
+        }
+        .value-item
+        {
+            font-family: 'Poppins';
+            font-size: 12px;
+            font-weight: 400;
+            color: #2a2a2aaa;
+        }
+        .pokimon-section-element
+        {
+            display: flex;
+            margin-left: 15px;
+            margin-bottom: 10px;
+        }
+    }
+}

@@ -1,46 +1,93 @@
-# Getting Started with Create React App
+# Imedia24 coding challenge FRONT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Technologies
 
-## Available Scripts
+this app was developed using : 
 
-In the project directory, you can run:
+- ReactJs : front-end JavaScript library for building user interfaces based on UI components .
+- Redux : for managing global states through out the project .
+- Redux-saga : for managing side-effects .
+- Jest & React Testing Library : for unit tests examples done in the project .
+- PokiApi : As our mock api for fetching pokemons data .
 
-### `npm start`
+# Project hierarchy
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The whole project was developped using typescript . 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Assets
 
-### `npm test`
+that’s where all the media , icons and images will go 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Hooks
 
-### `npm run build`
+Any custom hooks created (used to offload logic for UI components)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Components
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Components that are being used throughout the project 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Constants
 
-### `npm run eject`
+Any constants that are being used globally throughout the project
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## E2E
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+where our end to end tests will go 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Services
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+All services used for making api calls
 
-## Learn More
+## Store
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Where our global redux and sagas logics will go 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Styles
+
+Global Css or Sass style used in the project
+
+## Types
+
+Our project types 
+
+# How to run the app
+
+We will need first to install all dependencies used in the project 
+
+Clone the project repo first , and navigate to the project .
+
+Assuming that you have [Node 12 LTS](https://nodejs.org/en/download/) or greater installed, you can use npm to install node modules 
+
+```bash
+$npm i 
+```
+
+then you can run the project locally with : 
+
+```bash
+$npm start
+```
+
+Now the project is available at : **localhost:3000.**
+
+## Testing
+
+To test a certain file (eg: PokimonCard.test.tsx) , we can simply run :
+
+```bash
+$npm test PokimonCard.test.tsx
+```
+
+For the end to end testing , it was done using cypress . To run cypress , run the command :
+
+```bash
+$npm run cypress:open
+```
+
+# Preview of the app
+
+![Untitled](Imedia24%20coding%20challenge%20FRONT%201f9f2e662c6f477688653ad3e512b255/Untitled.png)
+
+![Untitled](Imedia24%20coding%20challenge%20FRONT%201f9f2e662c6f477688653ad3e512b255/Untitled%201.png)
+
+![Untitled](Imedia24%20coding%20challenge%20FRONT%201f9f2e662c6f477688653ad3e512b255/Untitled%202.png)
